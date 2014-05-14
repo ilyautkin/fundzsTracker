@@ -6,12 +6,12 @@ if ($object->xpdo) {
 
 	switch ($options[xPDOTransport::PACKAGE_ACTION]) {
 		case xPDOTransport::ACTION_INSTALL:
-			$modelPath = $modx->getOption('modextra_core_path',null,$modx->getOption('core_path').'components/modextra/').'model/';
-			$modx->addPackage('modextra', $modelPath);
+			$modelPath = $modx->getOption('fundzstracker_core_path',null,$modx->getOption('core_path').'components/fundzstracker/').'model/';
+			$modx->addPackage('fundzstracker', $modelPath);
 
 			$manager = $modx->getManager();
 			$objects = array(
-				'modExtraItem',
+				'fundzsTrackerItem',
 			);
 			foreach ($objects as $tmp) {
 				$manager->createObjectContainer($tmp);

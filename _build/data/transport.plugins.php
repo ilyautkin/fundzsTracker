@@ -3,8 +3,8 @@
 $plugins = array();
 
 $tmp = array(
-	'modExtra' => array(
-		'file' => 'modextra',
+	'fundzsTracker' => array(
+		'file' => 'fundzstracker',
 		'description' => '',
 		'events' => array(
 			'OnManagerPageInit' => array()

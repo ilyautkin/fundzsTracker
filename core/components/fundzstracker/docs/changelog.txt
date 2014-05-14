@@ -1,0 +1,5 @@
+Changelog for fundzsTracker.
+
+fundzsTracker 0.0.1
+==============
+- Initial release.

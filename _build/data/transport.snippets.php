@@ -3,8 +3,8 @@
 $snippets = array();
 
 $tmp = array(
-	'modExtra' => array(
-		'file' => 'modextra',
+	'fundzsTracker' => array(
+		'file' => 'fundzstracker',
 		'description' => '',
 	),
 );
